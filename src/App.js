@@ -37,8 +37,24 @@ const Header = styled.div`
   margin-bottom: 1em;
   text-align: center;
 
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+
   @media (min-width: 480px) {
     justify-content: space-between;
+
+    h1 {
+      font-size: 3em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
   }
 `;
 
@@ -61,10 +77,7 @@ export default function App() {
         <Button ref={hoverRef} href="mailto:mickaelcavailles@gmail.com">
           Contactez-moi par email
         </Button>
-        <Badge>
-          <a href="https://www.instagram.com/vinzcelavi/">@instagram</a>
-        </Badge>
-        <small>Nous refaisons le site... Un peu de patience !</small>
+        <Badge>Nous refaisons le site... Un peu de patience !</Badge>
       </Page>
       <Cursor hover={isHovered} />
     </ThemeProvider>

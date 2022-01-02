@@ -29,7 +29,7 @@ const Style = styled.a`
   position: relative;
   display: inline-flex;
   margin: 1em;
-  padding: 1em 2em;
+  padding: 0.75em 1.5em;
   font-size: 1.25em;
   font-weight: 500;
   line-height: 1.25;
